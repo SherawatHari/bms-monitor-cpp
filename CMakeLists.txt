@@ -29,4 +29,4 @@ target_link_libraries(
 )
 
 include(GoogleTest)
-gtest_discover_tests(test-monitor)
+gtest_discover_tests(test-monitor PROPERTIES TEST_DISCOVERY_TIMEOUT 200)
